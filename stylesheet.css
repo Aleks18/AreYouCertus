@@ -53,11 +53,17 @@ display: block;
 	font-size: 30px;
 	}
 	
+	h1 {
+	 position: fixed;
+    top: 0;
+    width: 100%;
+	}
+	
 	#about {
 	float: left;
 	margin-left: 90px;
 	font-family: Garamond;
-	margin-top: 60px;
+	margin-top: 150px;
 	font-size: 30px;
 	color: #333;
 	}
@@ -65,12 +71,79 @@ display: block;
 	#aboutp {
 	float: left;
 	font-family: Garamond;
-	margin-top: 110px;
+	margin-top: 220px;
 	color: #333;
 	margin-left: -78px;
 	font-size: 20px;
 	}
 	img {
-	margin-top: 50px;
+	margin-top: 170px;
 	margin-left: 80px;
 	}
+	
+	#search {
+	float: center;
+	margin-left: 300px;
+	margin-top: 15px;
+	}
+	
+
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#333;
+}
+
+#barnum	{
+width: 300px;
+height: 200px;
+margin-left: 250px;
+margin-top:180px;
+border-radius: 25px;
+}
+
+#firstheadline {
+margin-left: 600px;
+margin-top: -200px;
+font-family: Garamond;
+color: #333;
+}
+
+#firstcaption {
+margin-left: 600px;
+margin-top: 0px;
+font-family: Garamond;
+color: #333;
+font-size: 18px;
+}
+#bigheadline	{
+margin-top: 200px;
+margin-left: 300px;
+font-family: Garamond;
+color: #333;
+font-size: 30px;
+}
+
+#firstparagraph {
+margin-left:100px;
+margin-right:100px;
+font-family: Garamond;
+color: #333;
+font-size: 18px;
+}
+
+img {
+margin-top: 0px;
+}
